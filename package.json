@@ -2,7 +2,7 @@
   "name": "copy-syntax",
   "displayName": "Copy Syntax",
   "description": "copy your code with syntax highlight to clipboard, so can used at keynote",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "publisher": "atian25",
   "engines": {
     "vscode": "^1.5.0"

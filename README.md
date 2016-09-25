@@ -54,4 +54,4 @@ Submit the [issues](https://github.com/atian25/vscode-copy-syntax/issues) if you
 Fork the [repo](https://github.com/atian25/vscode-copy-syntax) and submit pull requests.
 
 ## Release Notes
-![History](https://github.com/atian25/vscode-copy-syntax/raw/master/CHANGELOG.md)
+see [CHANGELOG](https://github.com/atian25/vscode-copy-syntax/raw/master/CHANGELOG.md)
