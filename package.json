@@ -1,6 +1,6 @@
 {
-  "name": "vscode-copy-syntax",
-  "displayName": "copy-syntax",
+  "name": "copy-syntax",
+  "displayName": "Copy Syntax",
   "description": "copy your code with syntax highlight to clipboard, so can used at keynote",
   "version": "0.1.2",
   "publisher": "atian25",
@@ -10,6 +10,10 @@
   "categories": [
     "Other"
   ],
+  "icon": "icon.png",
+  "license": "MIT",
+  "homepage": "https://github.com/atian25/vscode-copy-syntax",
+  "repository": "https://github.com/atian25/vscode-copy-syntax.git",
   "activationEvents": [
     "onCommand:copySyntax.copy",
     "onCommand:copySyntax.copyWithOptions"
