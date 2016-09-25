@@ -69,21 +69,21 @@
           }
         },
 
-        // "copy-syntax.formatters.html": {
-        //   "description": "see http://pygments.org/docs/formatters/#HtmlFormatter",
-        //   "type": "object",
-        //   "default": {
-        //     "style": "default"
-        //   }
-        // },
+        "copy-syntax.formatters.html": {
+          "description": "see http://pygments.org/docs/formatters/#HtmlFormatter",
+          "type": "object",
+          "default": {
+            "style": "default"
+          }
+        },
 
-        // "copy-syntax.formatters.img": {
-        //   "description": "see http://pygments.org/docs/formatters/#ImageFormatter",
-        //   "type": "object",
-        //   "default": {
-        //     "style": "default"
-        //   }
-        // },
+        "copy-syntax.formatters.img": {
+          "description": "see http://pygments.org/docs/formatters/#ImageFormatter",
+          "type": "object",
+          "default": {
+            "style": "default"
+          }
+        },
 
         "copy-syntax.mapping.markdown": {
           "description": "markdown code to pygments lang option",
