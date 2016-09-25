@@ -1,65 +1,57 @@
-# vscode-copy-syntax README
+# copy-syntax
 
-This is the README for your extension "vscode-copy-syntax". After writing up a brief description, we recommend including the following sections.
+[![Marketplace Version](http://vsmarketplacebadge.apphb.com/version/atian25.copy-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=atian25.copy-syntax)
+[![Installs](http://vsmarketplacebadge.apphb.com/installs/atian25.copy-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=atian25.copy-syntax) 
+[![Rating](http://vsmarketplacebadge.apphb.com/rating/atian25.copy-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=atian25.copy-syntax)
+[![Build Status](https://travis-ci.org/atian25/copy-syntax.svg?branch=master)](https://travis-ci.org/atian25/vscode-copy-syntax)
+
+copy your code with syntax highlight, so you can show code at keynote.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+  - Copy code as RTF
+  - Auto detect language: `markdown syntax` -> `vscode languageId` -> `file extension`
+  - Support language to highlight
+  - Use `pygmentize`
 
-For example if there is an image subfolder under your extension project workspace:
+## Usages
 
-\!\[feature X\]\(images/feature-x.png\)
+![Usage](https://github.com/atian25/vscode-copy-syntax/raw/master/usage.gif)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+  - Open code file or select code snippet in Text Editor, then press `F1` and then select/type `Copy Syntax`, or right click the Text Editor and then click `Copy Syntax` in context menu, the code with syntax highlight will copy to clipboard.
+  - To select language to run, use press `F1` and then select/type `Copy Syntax as ...`, then type the language: e.g `php, js, bash...`
+
+## Installation
+
+Press `F1` in VSCode, type `ext install` and then look for `copy-syntax`.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+  - python is required by `pygmentize`
 
-## Extension Settings
+## Configuration
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+  - `copy-syntax.defaults.lang`: the default language is `js`
+  - `copy-syntax.defaults.format`: currently is only support `rtf`, feel free to PR.
+  - `copy-syntax.showMessage`: set to `false` to skip boring success message
+  - `copy-syntax.formatters.rtf`: RtfFormatter options
 
-For example:
+```json
+{
+    "copy-syntax.defaults.lang": "js",
+    "copy-syntax.formatters.rtf": {
+        "style": "default",
+        "fontsize": 50,
+        "fontface": "Monaco"
+    }
+}
+```
 
-This extension contributes the following settings:
+## Issues
+Submit the [issues](https://github.com/atian25/vscode-copy-syntax/issues) if you find any bug or have any suggestion.
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## Contribution
+Fork the [repo](https://github.com/atian25/vscode-copy-syntax) and submit pull requests.
 
 ## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+![History](https://github.com/atian25/vscode-copy-syntax/raw/master/History.md)
