@@ -7,6 +7,8 @@
 
 copy your code with syntax highlight, can be used at your slide.
 
+![Usage](https://github.com/atian25/vscode-copy-syntax/raw/master/usage.png)
+
 ## Features
 
   - Copy code as RTF
@@ -16,12 +18,10 @@ copy your code with syntax highlight, can be used at your slide.
 
 ## Usages
 
-![Usage](https://github.com/atian25/vscode-copy-syntax/raw/master/usage.png)
-
 ![Usage](https://github.com/atian25/vscode-copy-syntax/raw/master/usage.gif)
-
   - Open code file or select code snippet in Text Editor, then press `F1` and then select/type `Copy Syntax`, or right click the Text Editor and then click `Copy Syntax` in context menu, the code with syntax highlight will copy to clipboard.
   - To select language to run, use press `F1` and then select/type `Copy Syntax as ...`, then type the language: e.g `php, js, bash...`
+
 
 ## Installation
 
