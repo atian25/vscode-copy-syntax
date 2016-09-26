@@ -3,7 +3,7 @@
 [![Marketplace Version](http://vsmarketplacebadge.apphb.com/version/atian25.copy-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=atian25.copy-syntax)
 [![Installs](http://vsmarketplacebadge.apphb.com/installs/atian25.copy-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=atian25.copy-syntax) 
 [![Rating](http://vsmarketplacebadge.apphb.com/rating/atian25.copy-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=atian25.copy-syntax)
-[![Build Status](https://travis-ci.org/atian25/copy-syntax.svg?branch=master)](https://travis-ci.org/atian25/vscode-copy-syntax)
+[![Build Status](https://img.shields.io/travis/atian25/vscode-copy-syntax.svg)](https://travis-ci.org/atian25/vscode-copy-syntax)
 
 copy your code with syntax highlight, can be used at your slide.
 
