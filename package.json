@@ -1,7 +1,8 @@
 {
   "name": "copy-syntax",
   "displayName": "Copy Syntax",
-  "description": "copy your code with syntax highlight to clipboard, so can used at keynote",
+  "description": "copy your code with syntax highlight, can be used at your slide.",
+
   "version": "0.2.4",
   "publisher": "atian25",
   "engines": {
@@ -13,7 +14,7 @@
   "icon": "icon.png",
   "license": "MIT",
   "homepage": "https://github.com/atian25/vscode-copy-syntax",
-  "repository": "https://github.com/atian25/vscode-copy-syntax.git",
+  "repository": "https://github.com/atian25/vscode-copy-syntax",
   "activationEvents": [
     "onCommand:copySyntax.copy",
     "onCommand:copySyntax.copyWithOptions"
@@ -119,7 +120,8 @@
   "scripts": {
     "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
     "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
-    "postinstall": "node ./node_modules/vscode/bin/install"
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test"
   },
   "devDependencies": {
     "typescript": "^1.8.5",
