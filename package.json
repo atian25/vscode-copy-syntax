@@ -48,23 +48,32 @@
       "type": "object",
       "title": "copy-syntax extension configuration",
       "properties": {
-        "copy-syntax.defaults": {
-          "type": "object",
-          "default": {
-            "lang": "js",
-            "format": "rtf",
-            "python": "python",
-            "options": {}
-          }
+        "copy-syntax.defaults.lang": {
+          "description": "source language/lexer name, default as js",
+          "type": "string",
+          "default": "js"
+        },
+
+        "copy-syntax.defaults.format": {
+          "description": "output formatter name, default as rtf, see http://pygments.org/docs/formatters",
+          "type": "string",
+          "default": "rtf"
+        },
+
+        "copy-syntax.defaults.python": {
+          "description": "the full path to the `python` command on the current system",
+          "type": "string",
+          "default": "python"
         },
 
         "copy-syntax.showMessage": {
+          "description": "set to `false` to skip the boring success message",
           "type": "boolean",
           "default": true 
         },
 
         "copy-syntax.formatters.rtf": {
-          "description": "see http://pygments.org/docs/formatters/#RtfFormatter",
+          "description": "custom style/fontsize/fontface for RtfFormatter, see http://pygments.org/docs/formatters/#RtfFormatter",          
           "type": "object",
           "default": {
             "style": "default",
