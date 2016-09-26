@@ -12,7 +12,7 @@ copy your code with syntax highlight, so you can show code at keynote.
   - Copy code as RTF
   - Auto detect language: `markdown syntax` -> `vscode languageId` -> `file extension`
   - Support language to highlight
-  - Use `pygmentize`
+  - Use [`pygmentize`](http://pygments.org/docs/cmdline/)
 
 ## Usages
 
@@ -23,11 +23,8 @@ copy your code with syntax highlight, so you can show code at keynote.
 
 ## Installation
 
-Press `F1` in VSCode, type `ext install` and then look for `copy-syntax`.
-
-## Requirements
-
-  - python is required by `pygmentize`
+- Press `F1` in VSCode, type `ext install` and then look for `copy-syntax`.
+- `python` is required by `pygmentize`
 
 ## Configuration
 
@@ -35,23 +32,22 @@ Press `F1` in VSCode, type `ext install` and then look for `copy-syntax`.
   - `copy-syntax.defaults.format`: currently is only support `rtf`, feel free to PR.
   - `copy-syntax.showMessage`: set to `false` to skip boring success message
   - `copy-syntax.formatters.rtf`: RtfFormatter options
-
-```json
-{
-    "copy-syntax.defaults.lang": "js",
-    "copy-syntax.formatters.rtf": {
-        "style": "default",
-        "fontsize": 50,
-        "fontface": "Monaco"
+    ```json
+    {
+        "copy-syntax.defaults.lang": "js",
+        "copy-syntax.formatters.rtf": {
+            "style": "default",
+            "fontsize": 50,
+            "fontface": "Monaco"
+        }
     }
-}
-```
+    ```
 
 ## Issues
 Submit the [issues](https://github.com/atian25/vscode-copy-syntax/issues) if you find any bug or have any suggestion.
 
 ## Contribution
-Fork the [repo](https://github.com/atian25/vscode-copy-syntax) and submit pull requests.
+Fork the [repository](https://github.com/atian25/vscode-copy-syntax) and submit pull requests.
 
 ## Release Notes
-see [CHANGELOG](https://github.com/atian25/vscode-copy-syntax/raw/master/CHANGELOG.md)
+see [CHANGELOG](https://github.com/atian25/vscode-copy-syntax/blob/master/CHANGELOG.md)
