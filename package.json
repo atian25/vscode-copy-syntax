@@ -2,7 +2,7 @@
   "name": "copy-syntax",
   "displayName": "Copy Syntax",
   "description": "copy your code with syntax highlight, can be used at your slide.",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "publisher": "atian25",
   "engines": {
     "vscode": "^1.5.0"
