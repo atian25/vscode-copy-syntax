@@ -14,7 +14,9 @@ copy your code with syntax highlight, can be used at your slide.
   - Copy code as RTF
   - Auto detect language: `markdown syntax` -> `vscode languageId` -> `file extension`
   - Support language to highlight
-  - Use [`pygmentize`](http://pygments.org/docs/cmdline/)
+  - Use [pygmentize](http://pygments.org/docs/cmdline/) and [copy-paste](https://github.com/xavi-/node-copy-paste)
+  
+  > Known issues: Can't work in windows until `copy-paste` support [this feature](https://github.com/xavi-/node-copy-paste/issues/52)
 
 ## Usages
 
