@@ -1,7 +1,7 @@
 # copy-syntax
 
 [![Marketplace Version](http://vsmarketplacebadge.apphb.com/version/atian25.copy-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=atian25.copy-syntax)
-[![Installs](http://vsmarketplacebadge.apphb.com/installs/atian25.copy-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=atian25.copy-syntax) 
+[![Installs](http://vsmarketplacebadge.apphb.com/installs/atian25.copy-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=atian25.copy-syntax)
 [![Rating](http://vsmarketplacebadge.apphb.com/rating/atian25.copy-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=atian25.copy-syntax)
 [![Build Status](https://img.shields.io/travis/atian25/vscode-copy-syntax.svg)](https://travis-ci.org/atian25/vscode-copy-syntax)
 
@@ -15,7 +15,7 @@ copy your code with syntax highlight, can be used at your slide.
   - Auto detect language: `markdown syntax` -> `vscode languageId` -> `file extension`
   - Support language to highlight
   - Use [pygmentize](http://pygments.org/docs/cmdline/) and [copy-paste](https://github.com/xavi-/node-copy-paste)
-  
+
   > Known issues: Can't work in windows until `copy-paste` support [this feature](https://github.com/xavi-/node-copy-paste/issues/52)
 
 ## Usages
@@ -36,6 +36,7 @@ copy your code with syntax highlight, can be used at your slide.
   - `copy-syntax.defaults.format`: currently is only support `rtf`, feel free to PR.
   - `copy-syntax.showMessage`: set to `false` to skip boring success message
   - `copy-syntax.formatters.rtf`: RtfFormatter options
+
     ```json
     {
         "copy-syntax.defaults.lang": "js",
