@@ -2,7 +2,7 @@
   "name": "copy-syntax",
   "displayName": "Copy Syntax",
   "description": "copy your code with syntax highlight, can be used at your slide.",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "publisher": "atian25",
   "engines": {
     "vscode": "^1.5.0"
@@ -69,11 +69,11 @@
         "copy-syntax.showMessage": {
           "description": "set to `false` to skip the boring success message",
           "type": "boolean",
-          "default": true 
+          "default": true
         },
 
         "copy-syntax.formatters.rtf": {
-          "description": "custom style/fontsize/fontface for RtfFormatter, see http://pygments.org/docs/formatters/#RtfFormatter",          
+          "description": "custom style/fontsize/fontface for RtfFormatter, see http://pygments.org/docs/formatters/#RtfFormatter",
           "type": "object",
           "default": {
             "style": "default",

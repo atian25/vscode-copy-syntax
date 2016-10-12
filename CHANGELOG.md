@@ -1,4 +1,11 @@
 
+0.4.2 / 2016-10-12
+==================
+
+  * doc: rtf formater fontsize
+  * chore: fix README code style
+  * chore: markdown style fix
+
 0.4.1 / 2016-09-27
 ==================
 
