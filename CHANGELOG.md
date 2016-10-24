@@ -1,4 +1,9 @@
 
+0.5.0 / 2016-10-24
+==================
+
+  * feat: change default config: fontsize: 24, showMessage: false
+
 0.4.2 / 2016-10-12
 ==================
 
