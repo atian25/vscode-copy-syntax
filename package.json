@@ -69,7 +69,7 @@
         "copy-syntax.showMessage": {
           "description": "set to `false` to skip the boring success message",
           "type": "boolean",
-          "default": true
+          "default": false
         },
 
         "copy-syntax.formatters.rtf": {
@@ -77,7 +77,7 @@
           "type": "object",
           "default": {
             "style": "default",
-            "fontsize": 50,
+            "fontsize": 24,
             "fontface": "Monaco"
           }
         },

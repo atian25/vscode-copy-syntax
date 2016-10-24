@@ -36,17 +36,18 @@ copy your code with syntax highlight, can be used at your slide.
   - `copy-syntax.defaults.format`: currently is only support `rtf`, feel free to PR.
   - `copy-syntax.showMessage`: set to `false` to skip boring success message
   - `copy-syntax.formatters.rtf`: RtfFormatter options
-    - `fonsize` is specified in half points. The default is 50 half-points, giving a size 25 font.
+    - `fonsize` is specified in half points. The default is 24 half-points, giving a size 12 font.
     - see http://pygments.org/docs/formatters/#RtfFormatter
 
     ```json
     {
-        "copy-syntax.defaults.lang": "js",
-        "copy-syntax.formatters.rtf": {
-            "style": "default",
-            "fontsize": 50,
-            "fontface": "Monaco"
-        }
+      "copy-syntax.defaults.lang": "js",
+      "copy-syntax.showMessage": false,
+      "copy-syntax.formatters.rtf": {
+        "style": "default",
+        "fontsize": 24,
+        "fontface": "Monaco"
+      }
     }
     ```
 
