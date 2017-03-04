@@ -8,6 +8,8 @@ import CopySyntax from './CopySyntax';
 export function activate(context: vscode.ExtensionContext) {
     const copySyntax = new CopySyntax();
 
+    const ext = vscode.extensions.all;
+
     console.log('Congratulations, your extension "vscode-copy-syntax" is now active!');
 
     context.subscriptions.push(vscode.commands.registerCommand('copySyntax.copy', () => {

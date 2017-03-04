@@ -7,6 +7,11 @@
 
 copy your code with syntax highlight, can be used at your slide.
 
+> Now with vscode 1.10 it supports copy syntax without extra plugin.
+> https://code.visualstudio.com/updates/v1_10#_copy-with-syntax-highlighting
+> But it's copy as HTML format, maybe not work with keynote.
+> This Plugin copy as RTF format to make keynote happy.
+
 ![Usage](https://github.com/atian25/vscode-copy-syntax/raw/master/usage.png)
 
 ## Features
